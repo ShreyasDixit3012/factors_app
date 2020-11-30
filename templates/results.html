@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+
+<p>You submitted the follwing number: </p>
+<table>
+<tr><td>Number:</td><td>{{ the_number }}</td></tr>
+</table>
+
+<p>The factors of the entered number "{{ the_number }}" are:</p>
+<h3>{{ the_results }}</h3>
+
+
+
+{% endblock %}
